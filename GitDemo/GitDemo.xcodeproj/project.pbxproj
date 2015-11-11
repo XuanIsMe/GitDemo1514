@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		648BAD881BF330A2005CED1F /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BAD871BF330A2005CED1F /* ViewControllerB.m */; };
 		64C5D4491BF320AD007827F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D4481BF320AD007827F8 /* main.m */; };
 		64C5D44C1BF320AD007827F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D44B1BF320AD007827F8 /* AppDelegate.m */; };
 		64C5D44F1BF320AD007827F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D44E1BF320AD007827F8 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		648BAD861BF330A2005CED1F /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+		648BAD871BF330A2005CED1F /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
 		64C5D4431BF320AD007827F8 /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C5D4471BF320AD007827F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64C5D4481BF320AD007827F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				64C5D4531BF320AD007827F8 /* Images.xcassets */,
 				64C5D4551BF320AD007827F8 /* LaunchScreen.xib */,
 				64C5D4461BF320AD007827F8 /* Supporting Files */,
+				648BAD861BF330A2005CED1F /* ViewControllerB.h */,
+				648BAD871BF330A2005CED1F /* ViewControllerB.m */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64C5D44F1BF320AD007827F8 /* ViewController.m in Sources */,
+				648BAD881BF330A2005CED1F /* ViewControllerB.m in Sources */,
 				64C5D44C1BF320AD007827F8 /* AppDelegate.m in Sources */,
 				64C5D4491BF320AD007827F8 /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				64C5D4681BF320AD007827F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64C5D4691BF320AD007827F8 /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				64C5D46B1BF320AD007827F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
