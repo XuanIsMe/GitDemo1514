@@ -10,6 +10,7 @@
 		648BAD811BF328AF005CED1F /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BAD801BF328AF005CED1F /* ViewControllerA.m */; };
 		648BAD881BF330A2005CED1F /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BAD871BF330A2005CED1F /* ViewControllerB.m */; };
 		648BAD8F1BF33656005CED1F /* ViewControllerBB.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BAD8E1BF33656005CED1F /* ViewControllerBB.m */; };
+		648BAD8B1BF335E9005CED1F /* ViewControllerAA.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BAD8A1BF335E9005CED1F /* ViewControllerAA.m */; };
 		64C5D4491BF320AD007827F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D4481BF320AD007827F8 /* main.m */; };
 		64C5D44C1BF320AD007827F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D44B1BF320AD007827F8 /* AppDelegate.m */; };
 		64C5D44F1BF320AD007827F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D44E1BF320AD007827F8 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 		648BAD871BF330A2005CED1F /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
 		648BAD8D1BF33656005CED1F /* ViewControllerBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerBB.h; sourceTree = "<group>"; };
 		648BAD8E1BF33656005CED1F /* ViewControllerBB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerBB.m; sourceTree = "<group>"; };
+		648BAD891BF335E9005CED1F /* ViewControllerAA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAA.h; sourceTree = "<group>"; };
+		648BAD8A1BF335E9005CED1F /* ViewControllerAA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAA.m; sourceTree = "<group>"; };
 		64C5D4431BF320AD007827F8 /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C5D4471BF320AD007827F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64C5D4481BF320AD007827F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			children = (
 				648BAD7F1BF328AF005CED1F /* ViewControllerA.h */,
 				648BAD801BF328AF005CED1F /* ViewControllerA.m */,
+				648BAD891BF335E9005CED1F /* ViewControllerAA.h */,
+				648BAD8A1BF335E9005CED1F /* ViewControllerAA.m */,
 			);
 			name = A;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				648BAD811BF328AF005CED1F /* ViewControllerA.m in Sources */,
 				64C5D44F1BF320AD007827F8 /* ViewController.m in Sources */,
 				648BAD8F1BF33656005CED1F /* ViewControllerBB.m in Sources */,
+				648BAD8B1BF335E9005CED1F /* ViewControllerAA.m in Sources */,
 				648BAD881BF330A2005CED1F /* ViewControllerB.m in Sources */,
 				64C5D44C1BF320AD007827F8 /* AppDelegate.m in Sources */,
 				64C5D4491BF320AD007827F8 /* main.m in Sources */,
