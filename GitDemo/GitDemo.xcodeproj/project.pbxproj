@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		648BAD811BF328AF005CED1F /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BAD801BF328AF005CED1F /* ViewControllerA.m */; };
 		648BAD881BF330A2005CED1F /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BAD871BF330A2005CED1F /* ViewControllerB.m */; };
-		648BAD8F1BF33656005CED1F /* ViewControllerBB.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BAD8E1BF33656005CED1F /* ViewControllerBB.m */; };
 		648BAD8B1BF335E9005CED1F /* ViewControllerAA.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BAD8A1BF335E9005CED1F /* ViewControllerAA.m */; };
+		648BAD8F1BF33656005CED1F /* ViewControllerBB.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BAD8E1BF33656005CED1F /* ViewControllerBB.m */; };
+		648BAD931BF33823005CED1F /* ViewControllerC.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BAD921BF33823005CED1F /* ViewControllerC.m */; };
 		64C5D4491BF320AD007827F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D4481BF320AD007827F8 /* main.m */; };
 		64C5D44C1BF320AD007827F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D44B1BF320AD007827F8 /* AppDelegate.m */; };
 		64C5D44F1BF320AD007827F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D44E1BF320AD007827F8 /* ViewController.m */; };
@@ -35,10 +36,12 @@
 		648BAD801BF328AF005CED1F /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
 		648BAD861BF330A2005CED1F /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
 		648BAD871BF330A2005CED1F /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
-		648BAD8D1BF33656005CED1F /* ViewControllerBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerBB.h; sourceTree = "<group>"; };
-		648BAD8E1BF33656005CED1F /* ViewControllerBB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerBB.m; sourceTree = "<group>"; };
 		648BAD891BF335E9005CED1F /* ViewControllerAA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAA.h; sourceTree = "<group>"; };
 		648BAD8A1BF335E9005CED1F /* ViewControllerAA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAA.m; sourceTree = "<group>"; };
+		648BAD8D1BF33656005CED1F /* ViewControllerBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerBB.h; sourceTree = "<group>"; };
+		648BAD8E1BF33656005CED1F /* ViewControllerBB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerBB.m; sourceTree = "<group>"; };
+		648BAD911BF33823005CED1F /* ViewControllerC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerC.h; sourceTree = "<group>"; };
+		648BAD921BF33823005CED1F /* ViewControllerC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerC.m; sourceTree = "<group>"; };
 		64C5D4431BF320AD007827F8 /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C5D4471BF320AD007827F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64C5D4481BF320AD007827F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +95,15 @@
 			name = B;
 			sourceTree = "<group>";
 		};
+		648BAD901BF33816005CED1F /* C */ = {
+			isa = PBXGroup;
+			children = (
+				648BAD911BF33823005CED1F /* ViewControllerC.h */,
+				648BAD921BF33823005CED1F /* ViewControllerC.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
 		64C5D43A1BF320AD007827F8 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +125,7 @@
 		64C5D4451BF320AD007827F8 /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				648BAD901BF33816005CED1F /* C */,
 				648BAD8C1BF33648005CED1F /* B */,
 				648BAD7E1BF3287D005CED1F /* A */,
 				64C5D44A1BF320AD007827F8 /* AppDelegate.h */,
@@ -261,6 +274,7 @@
 				648BAD8B1BF335E9005CED1F /* ViewControllerAA.m in Sources */,
 				648BAD881BF330A2005CED1F /* ViewControllerB.m in Sources */,
 				64C5D44C1BF320AD007827F8 /* AppDelegate.m in Sources */,
+				648BAD931BF33823005CED1F /* ViewControllerC.m in Sources */,
 				64C5D4491BF320AD007827F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
